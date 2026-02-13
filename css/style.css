@@ -70,7 +70,7 @@ p {
 
 /* 2. Body-CSS */
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin: 0px;
@@ -97,7 +97,7 @@ ul {
 /* 5. Header */
 /* 5.1 Logo */
 .logo-link {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 22px;
   font-weight: 700;
   /* line-height: 1.9; */
@@ -105,7 +105,6 @@ ul {
   text-decoration: none;
   text-transform: capitalize;
   width: 74px;
-  height: 42px;
 }
 /* 5.2 Navigation */
 .link {
@@ -126,7 +125,7 @@ ul {
 }
 /* 6.2 Website-name */
 .Website-name {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 140px;
   font-weight: 700;
   margin-bottom: 40px;
@@ -138,13 +137,13 @@ ul {
 .button {
   font-size: 16px;
   font-family: inherit;
-  line-height: 1.3;
   cursor: pointer;
   font-weight: 600;
   color: var(--Primary-colors-white);
   line-height: 1.16;
   background-color: var(--Primary-colors-blue);
   border-radius: 32px;
+  border: none;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
@@ -168,19 +167,16 @@ ul {
 
 /* 7. Section #2 */
 .Section-title2 {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 1.16;
-  font-style: Bold;
   color: var(--Primary-colors-navy-blue);
-  width: 529px;
-  height: 148px;
   margin-bottom: 0;
 }
 
 .Section-title2 span {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   font-style: Bold;
@@ -204,8 +200,6 @@ ul {
   font-size: 22px;
   line-height: 2;
   color: var(--Primary-colors-navy-blue);
-  width: 709px;
-  height: 152px;
   margin-bottom: 0;
 }
 
@@ -218,18 +212,16 @@ ul {
 /* 8. Section #3 */
 /* 8.1 Section-title3  */
 .Section-title3 {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   font-style: Bold;
   text-align: center;
   color: var(--Primary-colors-navy-blue);
-  width: 432px;
-  height: 148px;
   margin-bottom: 0;
 }
 .Section-title3 span {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   font-style: Bold;
@@ -253,19 +245,17 @@ ul {
 /* 9. Section #4 */
 /* 9.1 Section-title-4 */
 .Section-title-4 {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   text-align: center;
   font-style: Bold;
   color: #000000;
   line-height: 1.15;
-  width: 510px;
-  height: 74px;
   margin-bottom: 0;
 }
 .Section-title-4 span {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   text-align: center;
@@ -300,7 +290,7 @@ ul {
 /* 11. Section 5 */
 /* 11.1 Contacts-Title-Section5  */
 .Contacts-Title-Section5 {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   text-align: center;
@@ -309,7 +299,7 @@ ul {
   color: var(--Primary-colors-navy-blue);
 }
 .Contacts-Title-Section5 span {
-  font-family: 'Play', 'sans-serif';
+  font-family: 'Play', sans-serif;
   font-size: 64px;
   font-weight: 700;
   text-align: center;
@@ -408,8 +398,6 @@ ul {
   display: flex;
   gap: 56px;
   align-items: center;
-  width: 525px;
-  height: 21px;
 }
 .header-logo-nav {
   display: flex;
@@ -419,16 +407,10 @@ ul {
 .header-adress {
   display: flex;
   gap: 32px;
-  width: 160px;
-  height: 32px;
+
   align-items: center;
 }
-.padding-for-nav {
-  padding: 10.5px 0px;
-}
-.padding-for-address {
-  padding: 5px 0px;
-}
+
 .header-icons-sprite {
   width: 32px;
   height: 32px;
@@ -439,17 +421,11 @@ ul {
 .section1-everything {
   display: flex;
   width: 529px;
-  height: 428px;
   flex-direction: column;
+  padding-bottom: 156px;
+  margin-left: 100px;
 }
 .section-all-padding.section1 {
-  /* padding-bottom: 126px; */
-  /* margin-bottom: 126px; */
-  width: 100%;
-  max-width: 1288px;
-  margin: 0 auto;
-  padding-left: 100px;
-  padding-top: 16px;
   background-image:
     linear-gradient(
       89.38deg,
@@ -458,14 +434,12 @@ ul {
       rgba(255, 255, 255, 0.193204) 58.65%,
       rgba(255, 255, 255, 0) 72.78%
     ),
-    url('/images/fon-for-section1.jpg');
+    url('fon-for-section1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.section1-everything {
-  margin-bottom: 156px;
-}
+
 .section1-subtitle-name {
   display: flex;
   flex-direction: column;
@@ -479,7 +453,7 @@ ul {
   height: 103px;
   gap: 14px;
 }
-.Bottom-header {
+.bottom-header {
   margin-bottom: 0;
 }
 
@@ -490,12 +464,10 @@ ul {
 }
 .section2-text-all {
   display: flex;
-  width: 909px;
-  height: 456px;
+  width: 709px;
   flex-direction: column;
   gap: 40px;
   margin-top: 40px;
-  margin-bottom: 199px;
 }
 .section2-img-all {
   display: flex;
@@ -603,7 +575,7 @@ ul {
       rgba(1, 28, 68, 0.725825) 84.61%,
       #011c44 101.39%
     ),
-    url('/images/1procedurs.jpg');
+    url('1procedurs.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -623,7 +595,7 @@ ul {
       rgba(1, 28, 68, 0.725825) 84.61%,
       #011c44 101.39%
     ),
-    url('/images/2procedurs.jpg');
+    url('2procedurs.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -644,7 +616,7 @@ ul {
       rgba(1, 28, 68, 0.725825) 84.61%,
       #011c44 101.39%
     ),
-    url('/images/3procedurs.jpg');
+    url('3procedurs.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -728,9 +700,15 @@ ul {
   width: 44px;
   height: 44px;
 }
+.last-section {
+  padding-bottom: 96px;
+  padding-top: 48px;
+}
 /* 13.7 Footer */
-.section-all-padding.footer {
-  padding-bottom: 0;
+.footer {
+  background-color: var(--Primary-colors-navy-blue);
+  background-image: url('footer-background.png');
+  padding: 56px 0px;
 }
 .footer-container {
   display: flex;
@@ -754,6 +732,7 @@ ul {
 .logo-link.footer {
   width: 82px;
   height: 42px;
+  padding-top: 0;
 }
 .footer-adress {
   width: 192px;
@@ -792,8 +771,6 @@ ul {
   flex-grow: 1;
 }
 .footer-container {
-  background-color: var(--Primary-colors-navy-blue);
-  background-image: url('/images/footer-background.png');
 }
 
 .footer-navigation {
